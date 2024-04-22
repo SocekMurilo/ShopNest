@@ -1,0 +1,8 @@
+.wrap-all{
+    display: flex;
+    background-color: aqua;
+}
+.text-ex{
+    color: var(--color-text);
+}
+
