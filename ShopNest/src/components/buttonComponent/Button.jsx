@@ -1,5 +1,7 @@
+import style from "./Button.module.css"
+
 export const  Button = (props) =>{
     return(
-        <button>{props.Text}</button>
+        <button classname={style["buttonPayment"]}>Continuar</button>
     )
 }
