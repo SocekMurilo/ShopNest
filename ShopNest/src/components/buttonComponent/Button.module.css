@@ -1,5 +1,8 @@
-.buttonPayment{
-    width: 300;
-    height: 59;
-    background-color: #d9d9d9;
+.sizeButton{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    box-shadow: 0.3px 0.3px 5px black;
 }
+

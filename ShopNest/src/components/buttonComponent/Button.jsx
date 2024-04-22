@@ -1,7 +1,10 @@
-import style from "./Button.module.css"
+import React from 'react';
+import style from "./Button.module.css";
 
-export const  Button = (props) =>{
-    return(
-        <button classname={style["buttonPayment"]}>Continuar</button>
-    )
+export const ButtonComponent = (props) => {
+  return (
+    <button className={style["sizeButton"]}>
+      Continuar
+    </button>
+  );
 }
