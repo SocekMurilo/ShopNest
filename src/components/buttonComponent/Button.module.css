@@ -25,3 +25,26 @@
     box-shadow: 0 0 0 2px #6f757a;
 }
 
+.ButtonPay {
+    width: 28.75rem;
+    height: 4.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #D9D9D9;
+}
+
+.ButtonPay:Focus {
+    box-shadow: 0 0 0 2px #6f757a;
+}
+
+.ButtonCalc {
+    width: 12.4375rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #D9D9D9;
+}
+
+.ButtonCalc:Focus {
+    box-shadow: 0 0 0 2px #6f757a;
+}

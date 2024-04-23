@@ -18,8 +18,18 @@ export const ButtonLogin = (props) => {
   )
 }
 
-// export const ButtonPay = (props) => {
-//   return (
-//     <button className={style["ButtonPay"]}/>
-//   )   
-// }
+export const ButtonPay = (props) => {
+  return (
+    <button className={style["ButtonPay"]}>
+      {props.name}
+    </button>
+  )
+}
+
+export const ButtonCacular = (props) => {
+  return (
+    <button className={style["ButtonCalc"]}>
+      {props.name}
+    </button>
+  )
+}

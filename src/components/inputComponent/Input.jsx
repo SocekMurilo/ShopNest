@@ -15,3 +15,8 @@ export const InputPayment = (props) => {
     )
 }
 
+export const InputCard = (props) => {
+    return (
+        <input className={style["InputCard"]} placeholder={props.placeholderValue}/>
+    )
+}
