@@ -17,3 +17,9 @@ export const ButtonLogin = (props) => {
     </button>
   )
 }
+
+// export const ButtonPay = (props) => {
+//   return (
+//     <button className={style["ButtonPay"]}/>
+//   )   
+// }

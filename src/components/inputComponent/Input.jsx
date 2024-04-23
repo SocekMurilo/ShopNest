@@ -9,3 +9,9 @@ export const InputPadrao = (props) => {
     )
 }
 
+export const InputPayment = (props) => {
+    return (
+        <input className={style["InputPay"]} placeholder={props.placeholderValue}/>
+    )
+}
+
