@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import {Home} from './Screens/home/Home.jsx'
+import { Analytics } from "@vercel/analytics/react"
+
 
 
 import {
@@ -26,6 +28,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Analytics/>
       <RouterProvider router={router} />
   </React.StrictMode>,
 )
