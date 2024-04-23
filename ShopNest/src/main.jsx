@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+import {Home} from './Screens/home/Home.jsx'
 
 
 import {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/home",
-    element: <App />,
+    element: < Home/>,
   },
 ]);
 

@@ -2,18 +2,67 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+
+import style from './NavBar.module.css'
+
 import neutropica from '../../assets/Neutropica.png'
+import logo from '../../assets/logo.png'
+import home from '../../assets/home.png'
+import carrinho from '../../assets/carrinho.png'
+import perfil from '../../assets/perfil.png'
+
 
 export const NavBar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">ShopNest</Navbar.Brand>
+      <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src={logo}
+              width="64"
+              height="64"
+              className="d-inline-block align-top"
+              style={{justifyContent: 'center'}}
+            />{' '}
+            ShopNest
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link style={{color: 'black'}} href="#" disabled>
+              <img
+                alt=""
+                src={home}
+                width="40"
+                height="40"
+                className="d-inline-block align-top"
+              />{' '}
+                Home
+            </Nav.Link>
+            <Nav.Link style={{color: 'black'}} href="#" disabled>
+              <img
+                  alt=""
+                  src={carrinho}
+                  width="40"
+                  height="40"
+                  className="d-inline-block align-top"
+                />{' '}
+                Carrinho
+            </Nav.Link>
+              <Nav.Link style={{color: 'black', position: 'relative'}}  href="#" disabled>
+                <img
+                    alt=""
+                    src={perfil}
+                    width="40"
+                    height="40"
+                    className="d-inline-block align-top"
+                    style={{}}
+                  />{' '}
+                  Entrar
+              </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
