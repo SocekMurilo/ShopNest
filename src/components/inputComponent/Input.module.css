@@ -32,7 +32,7 @@
     border-radius: 0.625rem;
     background: #D9D9D9;
     font-size: 1.2rem;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #acacac;
     outline: none;
 }
 
@@ -48,23 +48,22 @@
     border-radius: 0.625rem;
     background: #D9D9D9;
     font-size: 1.2rem;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #918f8f;
     outline: none;
 }
 
 .InputDataCard:focus {
-    box-shadow: 0 0 0 2px #acacac;
+    box-shadow: 0 0 0 2px #918f8f;
 }
 
 
 .InputProduct {
     width: 27.5rem;
     height: 3.6875rem;
-    ;
     border-radius: 0.625rem;
     background: #939393;
     font-size: 1.2rem;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #918f8f;
     outline: none;
 }
 

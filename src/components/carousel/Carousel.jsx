@@ -14,7 +14,7 @@ export const CarouselHome = () => {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} style={{backgroundColor : "#5A6B49", textAlign : "center", width: "80%", marginTop: "2%", alignItems: "center"}}>
+    <Carousel activeIndex={index} onSelect={handleSelect} style={{backgroundColor : "#5A6B49", textAlign : "center", width: "100%", marginTop: "2%", alignItems: "center"}}>
       <Carousel.Item>
       <Image
           alt=""
