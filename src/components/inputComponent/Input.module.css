@@ -1,0 +1,13 @@
+.InputP{
+    width: 28rem;
+    height: 4.5rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    font-size: 1.2rem;
+    border: 1px solid #CCCCCC;
+    outline: none;
+}
+
+.InputP:focus {
+  box-shadow: 0 0 0 2px #cacaca;
+}

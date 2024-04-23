@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Image from 'react-bootstrap/Image';
 
 import style from './NavBar.module.css'
 
@@ -17,7 +18,7 @@ export const NavBar = () => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
       <Navbar.Brand href="#home">
-            <img
+            <Image
               alt=""
               src={logo}
               width="64"
@@ -33,7 +34,7 @@ export const NavBar = () => {
           </Nav>
           <Nav>
             <Nav.Link style={{color: 'black'}} href="#" disabled>
-              <img
+              <Image
                 alt=""
                 src={home}
                 width="40"
@@ -43,7 +44,7 @@ export const NavBar = () => {
                 Home
             </Nav.Link>
             <Nav.Link style={{color: 'black'}} href="#" disabled>
-              <img
+              <Image
                   alt=""
                   src={carrinho}
                   width="40"
@@ -53,7 +54,7 @@ export const NavBar = () => {
                 Carrinho
             </Nav.Link>
               <Nav.Link style={{color: 'black', position: 'relative'}}  href="#" disabled>
-                <img
+                <Image
                     alt=""
                     src={perfil}
                     width="40"

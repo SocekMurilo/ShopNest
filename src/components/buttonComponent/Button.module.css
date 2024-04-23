@@ -1,0 +1,26 @@
+.ButtonPayment {
+    width: 16rem;
+    height: 4rem;
+    border-radius: 10px;
+    background: #D9D9D9;
+    border: none;
+    outline: none;
+}
+
+.ButtonPayment:focus {
+    box-shadow: 0 0 0 2px #a5a5a5;
+}
+
+.ButtonLogin {
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    background: #898989;
+    border: 2px solid #6e6e6e;
+    border: none;
+    outline: none;
+}
+
+.ButtonLogin:Focus {
+    box-shadow: 0 0 0 2px #6f757a;
+}
