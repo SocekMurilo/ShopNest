@@ -14,13 +14,13 @@ export const CarouselHome = () => {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} style={{backgroundColor : "black", textAlign : "center"}}>
+    <Carousel activeIndex={index} onSelect={handleSelect} style={{backgroundColor : "#5A6B49", textAlign : "center", width: "80%", marginTop: "2%", alignItems: "center"}}>
       <Carousel.Item>
       <Image
           alt=""
           src={neutropica}
-          width="1067px"
-          height="600px"
+          width="90%"
+          height="800px"
           className="d-inline-block align-top"
           fluid
         />{" "}
@@ -33,8 +33,8 @@ export const CarouselHome = () => {
       <Image
           alt=""
           src={neutropica}
-          width="1067px"
-          height="600px"
+          width="90%"
+          height="800px"
           className="d-inline-block align-top"
           fluid
         />{" "}
@@ -47,8 +47,8 @@ export const CarouselHome = () => {
         <Image
           alt=""
           src={neutropica}
-          width="600px" 
-          height="600px"
+          width="90%"
+          height="800px"
           fluid
         />{" "}
         <Carousel.Caption>

@@ -6,9 +6,6 @@ import {Home} from './Screens/home/Home.jsx'
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 
-
-
-
 import {
   createBrowserRouter,
   RouterProvider,
