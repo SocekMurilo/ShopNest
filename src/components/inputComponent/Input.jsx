@@ -20,3 +20,15 @@ export const InputCard = (props) => {
         <input className={style["InputCard"]} placeholder={props.placeholderValue}/>
     )
 }
+
+export const InputDataCard = (props) => {
+    return (
+        <input className={style["InputDataCard"]} placeholder={props.placeholderValue}/>
+    )
+}
+
+export const InputProduct = (props) => {
+    return (
+        <input className={style["InputProduct"]} placeholder={props.placeholderValue}/>
+    )
+}

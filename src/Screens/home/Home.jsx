@@ -4,10 +4,12 @@ import { CarouselHome } from "../../components/carousel/Carousel"
 
 
 export const Home = () => {
-    return(
+    return (
         <>
-            <NavBar/>
-            <CarouselHome/>
+            <NavBar />
+            <div className={style["container"]}>
+                    <CarouselHome />
+            </div>
         </>
     )
 }

@@ -33,3 +33,11 @@ export const ButtonCacular = (props) => {
     </button>
   )
 }
+
+export const ButtonProduct = (props) => {
+  return(
+    <button className={style["ButtonProduct"]}>
+      {props.name}
+    </button>
+  )
+}

@@ -4,15 +4,20 @@ import style from './App.module.css';
 import { NavBar } from "./components/navBar/NavBar";
 
 import { ScreenWhite } from './components/backgroundComponent/Screen';
+import { ScreenLogo } from './components/backgroundComponent/Screen';
 
 import { ButtonPayment } from './components/buttonComponent/Button';
 import { ButtonLogin as ButtonPadrao } from './components/buttonComponent/Button';
 import { ButtonPay } from './components/buttonComponent/Button';
 import { ButtonCacular } from './components/buttonComponent/Button';
+import { ButtonProduct } from './components/buttonComponent/Button';
 
 import { InputPayment } from './components/inputComponent/Input';
 import { InputPadrao } from './components/inputComponent/Input';
 import { InputCard } from './components/inputComponent/Input';
+import { InputDataCard } from './components/inputComponent/Input';
+import { InputProduct } from './components/inputComponent/Input';
+
 
 
 function App() {
@@ -42,6 +47,17 @@ function App() {
       <ButtonPay name="Continuar Comprando"/>
 
       <InputCard placeholderValue="XXXX-XXXX-XXXX"/>
+      <InputCard placeholderValue="ERIC C PEREIRA"/>
+      <InputDataCard placeholderValue="00/00"/>
+      <InputDataCard placeholderValue="123"/>
+
+      <InputProduct placeholderValue="Ração"/>
+      <InputProduct placeholderValue="R$ 19,99"/>
+      <ButtonProduct name="Adicionar Foto"/>
+      <ButtonProduct name="Salvar"/>
+
+      <ScreenLogo/>
+
 
     </div>
     

@@ -1,5 +1,12 @@
-.size{
+.sizeWhite{
     width: 1740px;
     height: 888px;
     background: #FFF;
+}
+
+.ScreenLogo{
+    width: 45.8125rem;
+    height: 53.5625rem;
+    border-radius: 4.25rem;
+    background: #FFFEFE;
 }
