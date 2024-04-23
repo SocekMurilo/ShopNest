@@ -5,13 +5,15 @@ import { ButtonLogin as ButtonPadrao } from './components/buttonComponent/Button
 import { ScreenWhite } from './components/backgroundComponent/Screen'
 import { NavBar } from "./components/navBar/NavBar"
 import { InputPadrao } from './components/inputComponent/Input'
+import { InputPayment } from './components/inputComponent/Input';
 function App() {
 
 
   return (
     <>
+    <NavBar></NavBar>
+    
     <div className={style["container"]}>
-
       <InputPadrao placeholderValue="Nome" />
       <InputPadrao placeholderValue="Cpf" />
       <InputPadrao placeholderValue="Email" />
@@ -22,12 +24,10 @@ function App() {
       <ButtonPadrao name="Entrar"/>
       <ButtonPadrao name="Voltar"/>
       <ButtonPayment name="Continuar"/>
+      <InputPayment placeholderValue="XXXXXX"/>
+
     </div>
     
-    <main className={style["wrap-all"]}>
-      <h1 className={style["text-ex"]}>Teste</h1>
-      <NavBar></NavBar>
-    </main>
     </>
   )
 }
