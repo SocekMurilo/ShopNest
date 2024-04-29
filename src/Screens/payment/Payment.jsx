@@ -27,7 +27,7 @@ export const Payment = () => {
                         <div className={style["bar"]}></div>
                         <img src={ok} alt="OK" />
                         <div className={style["paymentTypes"]}>
-                            <h1>FORMA DE PAGAMENTO</h1> 
+                            <h1 className={style["title"]}>FORMA DE PAGAMENTO</h1> 
                             <div className={style["paymentType"]}>
                                 <label htmlFor="cartao" className={style["paymentLabel"]}>
                                     <input
@@ -37,7 +37,7 @@ export const Payment = () => {
                                         onChange={() => handlePaymentSelection('cartao')}
                                         style={{ display: 'none' }}
                                     />
-                                    <div className={`${style["paymentCheck"]} ${selectedPayment === 'cartao' ? style["checked"] : ""}`}></div> {/* Div representando o estado do checkbox */}
+                                    <div className={`${style["paymentCheck"]} ${selectedPayment === 'cartao' ? style["checked"] : ""}`}></div>
                                     <h2 className={style["paymentTitle"]}>Cartão</h2>
                                 </label>
                                 <p className={style["paymentDescription"]}>Parcelamento de até 10X sem juros.</p>

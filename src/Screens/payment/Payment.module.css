@@ -47,6 +47,9 @@
 
 .title {
     margin-top: 4%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
 }
 
 .paymentTypes {
@@ -103,4 +106,5 @@
 .paymentCheck.checked {
     background-color: #488E2F;
 }
+
 
