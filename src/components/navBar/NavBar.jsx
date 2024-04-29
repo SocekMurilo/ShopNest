@@ -15,58 +15,62 @@ import perfil from '../../assets/perfil.png'
 
 export const NavBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-      <Navbar.Brand href="#home">
+<Navbar expand="lg" className="bg-body-tertiary">
+  <Container>
+    <Navbar.Brand href="/parts" style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+      <Image
+        alt=""
+        src={logo}
+        width="64"
+        height="64"
+        className="d-inline-block align-top"
+      />
+      <div style={{textAlign: 'center', marginLeft: "5%"}}>ShopNest</div>
+    </Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+      </Nav>
+      <Nav>
+        <Navbar.Brand style={{color: 'black'}} href="/home" disabled>
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <Image
               alt=""
-              src={logo}
-              width="64"
-              height="64"
+              src={home}
+              width="40"
+              height="40"
               className="d-inline-block align-top"
-              style={{justifyContent: 'center'}}
-            />{' '}
-            ShopNest
+            />
+            <span>Home</span>
+          </div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-          </Nav>
-          <Nav>
-            <Nav.Link style={{color: 'black'}} href="#" disabled>
-              <Image
-                alt=""
-                src={home}
-                width="40"
-                height="40"
-                className="d-inline-block align-top"
-              />{' '}
-                Home
-            </Nav.Link>
-            <Nav.Link style={{color: 'black'}} href="#" disabled>
-              <Image
-                  alt=""
-                  src={carrinho}
-                  width="40"
-                  height="40"
-                  className="d-inline-block align-top"
-                />{' '}
-                Carrinho
-            </Nav.Link>
-              <Nav.Link style={{color: 'black', position: 'relative'}}  href="#" disabled>
-                <Image
-                    alt=""
-                    src={perfil}
-                    width="40"
-                    height="40"
-                    className="d-inline-block align-top"
-                    style={{}}
-                  />{' '}
-                  Entrar
-              </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        <Navbar.Brand style={{color: 'black'}} href="/pagamento" disabled>
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            <Image
+              alt=""
+              src={carrinho}
+              width="40"
+              height="40"
+              className="d-inline-block align-top"
+            />
+            <span>Carrinho</span>
+          </div>
+        </Navbar.Brand>
+        <Navbar.Brand style={{color: 'black', position: 'relative'}} href="/parts" disabled>
+          <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            <Image
+              alt=""
+              src={perfil}
+              width="40"
+              height="40"
+              className="d-inline-block align-top"
+            />
+            <span>Entrar</span>
+          </div>
+        </Navbar.Brand>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
   );
 }

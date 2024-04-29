@@ -11,6 +11,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { Payment } from './Screens/payment/Payment.jsx'
+import { Parts } from './Screens/parts/Parts.jsx'
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/pagamento",
     element: <Payment/>
+  },
+  {
+    path: "/parts",
+    element: <Parts/>
   }
 ]);
 
