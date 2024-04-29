@@ -23,7 +23,7 @@ export const CardComponent = () => {
         </Card.Text>
         <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%'}}>
           <Card.Title>R$ 19.95</Card.Title>
-          <Card.Link href="/payment">
+          <Card.Link href="/pagamento">
             <Image
               alt=""
               src={carrinho}
