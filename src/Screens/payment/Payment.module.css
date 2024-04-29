@@ -1,1 +1,33 @@
-*{}
+.centralizar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.63%;
+}
+
+.sizeWhite {
+    width: 108.75rem;
+    height: 50rem;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 0.1rem;
+}
+
+.progressBar, .bar {
+
+    width: 122px;
+    height: 6px;
+    margin: 0 5px; 
+}
+
+.progressBar {
+    background: #488E2F;
+}
+
+.bar {
+    background: #D9D9D9;
+}
+
+
+

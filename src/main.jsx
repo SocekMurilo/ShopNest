@@ -10,17 +10,22 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { Payment } from './Screens/payment/Payment.jsx'
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App/>,
   },
   {
     path: "/home",
-    element: < Home/>,
+    element: <Home/>,
   },
+  {
+    path: "/pagamento",
+    element: <Payment/>
+  }
 ]);
 
 
