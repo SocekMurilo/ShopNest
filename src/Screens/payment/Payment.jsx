@@ -5,6 +5,7 @@ import cart from '../../assets/pay/cart.png';
 import creditCard from '../../assets/pay/creditCard.png';
 import ok from '../../assets/pay/ok.png';
 import { NavBar } from "../../components/navBar/NavBar";
+import { ButtonPay, ButtonPayment } from '../../components/buttonComponent/Button';
 
 export const Payment = () => {
     const [selectedPayment, setSelectedPayment] = useState(null);
@@ -71,6 +72,9 @@ export const Payment = () => {
                                 <p className={style["paymentDescription"]}>Vencimento em 1 dia útil. A data de entrega será alterada devido ao tempo de processamento do boleto.</p>
                             </div>
                         </div>
+                    </div>
+                    <div className={style["alingButton"]}>
+                        <ButtonPay name="Continuar"/>
                     </div>
                 </div>
             </div>
