@@ -21,8 +21,8 @@ export const NavBar = () => {
       <Image
         alt=""
         src={logo}
-        width="64"
-        height="64"
+        width="45"
+        height="45"
         className="d-inline-block align-top"
       />
       <div style={{textAlign: 'center', marginLeft: "5%"}}>ShopNest</div>
@@ -37,11 +37,11 @@ export const NavBar = () => {
             <Image
               alt=""
               src={home}
-              width="40"
-              height="40"
+              width="25"
+              height="25"
               className="d-inline-block align-top"
             />
-            <span>Home</span>
+            <span style={{fontSize: 16}}>Home</span>
           </div>
         </Navbar.Brand>
         <Navbar.Brand style={{color: 'black'}} href="/pagamento" disabled>
@@ -49,11 +49,11 @@ export const NavBar = () => {
             <Image
               alt=""
               src={carrinho}
-              width="40"
-              height="40"
+              width="25"
+              height="25"
               className="d-inline-block align-top"
             />
-            <span>Carrinho</span>
+            <span style={{fontSize: 16}}>Carrinho</span>
           </div>
         </Navbar.Brand>
         <Navbar.Brand style={{color: 'black', position: 'relative'}} href="/parts" disabled>
@@ -61,11 +61,11 @@ export const NavBar = () => {
             <Image
               alt=""
               src={perfil}
-              width="40"
-              height="40"
+              width="25"
+              height="25"
               className="d-inline-block align-top"
             />
-            <span>Entrar</span>
+            <span style={{fontSize: 16}}>Entrar</span>
           </div>
         </Navbar.Brand>
       </Nav>
