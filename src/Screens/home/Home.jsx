@@ -12,7 +12,7 @@ export const Home = () => {
                     <CarouselHome />
             </div>
             <h1 style={{color: "white", margin: "2% 0 2% 4%"}}>PRODUTOS PARA AVES</h1>
-            <div style={{flexDirection: "row", display: "flex"}}>
+            <div style={{flexDirection: "row", display: "flex", marginBottom: "2%", flexWrap: "wrap"}}>
                 <CardComponent/>
                 <CardComponent/>
                 <CardComponent/>
