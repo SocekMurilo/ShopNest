@@ -5,12 +5,13 @@
 }
 
 .sizeWhite {
-    width: 90%; 
-    max-width: 100rem; 
-    height: 82vh; 
+    width: 90%;
+    max-width: 100rem;
+    height: 82vh;
     background: #FFF;
 }
-.card{
+
+.card {
     display: flex;
     align-items: center;
     padding: 0 1%;
@@ -27,7 +28,8 @@
     margin: 0 1%;
 }
 
-.progressBar, .bar {
+.progressBar,
+.bar {
     width: 10%;
     max-width: 122px;
     height: 3px;
@@ -43,6 +45,62 @@
     background: #D9D9D9;
 }
 
-.title{
+.title {
     margin-top: 4%;
 }
+
+.paymentTypes {
+    margin-top: 4%;
+}
+
+.paymentType {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.paymentTitle {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.paymentDescription {
+    font-size: 1rem;
+    color: #777;
+}
+
+.paymentType {
+    margin-bottom: 20px;
+}
+
+.paymentOption {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #488E2F;
+    margin-right: 10px;
+}
+
+.paymentOption.selected {
+    background-color: #488E2F;
+}
+
+.paymentLabel {
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+}
+
+.paymentCheck {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #488E2F;
+    margin-right: 10px;
+    flex-shrink: 0; 
+}
+
+.paymentCheck.checked {
+    background-color: #488E2F;
+}
+
