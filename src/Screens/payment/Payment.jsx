@@ -1,1 +1,0 @@
-import style from "./Payment.module.css"
