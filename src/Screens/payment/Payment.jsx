@@ -11,13 +11,16 @@ export const Payment = () => {
             <NavBar/>
             <div className={style["centralizar"]}>
                 <div className={style["sizeWhite"]}>
-                    <img src={person} alt="Person" />
-                    <div className={style["progressBar"]}></div>
-                    <img src={cart} alt="Cart" />
-                    <div className={style["progressBar"]}></div>
-                    <img src={creditCard} alt="CreditCard" />
-                    <div className={style["bar"]}></div>
-                    <img src={ok} alt="OK" />
+                    <div className={style["card"]}>
+                        <img src={person} alt="Person" />
+                        <div className={style["progressBar"]}></div>
+                        <img src={cart} alt="Cart" />
+                        <div className={style["progressBar"]}></div>
+                        <img src={creditCard} alt="CreditCard" />
+                        <div className={style["bar"]}></div>
+                        <img src={ok} alt="OK" />
+                        <h1 className={style["title"]}>FORMA DE PAGAMENTO</h1>
+                    </div>
                 </div>
             </div>
         </>
